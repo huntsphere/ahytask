@@ -29,12 +29,14 @@
 		background-color: transparent;
 		border: solid;
 		border-color: #fff;
+
 	}
 	.servicebtn
 	{
 		background-color: transparent;
 		border: solid;
 		border-color: #fff;
+		margin: 12px;
 	}
 	.serviceicon
 	{
@@ -65,6 +67,17 @@
 {
 	width: 50%;
 }
+.vendor 
+{
+	width: 100%;
+	height: auto;
+}
+section{
+	margin: 20px;
+}
+body{
+	background-color: #000;
+}
 
 	</style>
 </head>
@@ -82,12 +95,12 @@
 
 <!-- Header Section -->
 <section class="header">
-<div class="conainer" style="background-color: #000; padding-top: 180px;">
+<div class="conainer-fluid" style="padding-top: 180px;">
 	<div class="row">
-		<div class="col-12 col-sm-6 col-md-9" >
+		<div class="col-xs-12 col-md-offset-2 col-sm-6 col-md-9">
 			<div class="row">
-			<div class="col-12 col-md-4"><p>A design is a solution to a problem. It requires a scientific approach to be functional, and a sense of simplicity to be usable.</p></div>
-			<div class=" col-12 col-md-4"><p>Designs have to keep the end use in mind, focusing on ergonomy and tactility while solving the problem in question.</p></div>
+			<div class="col-xs-12 col-md-4"><p>A design is a solution to a problem. It requires a scientific approach to be functional, and a sense of simplicity to be usable.</p></div>
+			<div class=" col-xs-12 col-md-4"><p>Designs have to keep the end use in mind, focusing on ergonomy and tactility while solving the problem in question.</p></div>
 			<div class="col-xs-12 col-md-4"><p>At CDCo, we strive to offer the best design solutions to our clients across a wide array of services.</p></div>
 			</div>
 			<div class="row">
@@ -105,9 +118,9 @@
 
 <!-- Service Section -->
 <section>
-<div class="conainer" style="background-color: #000">
+<div class="conainer" >
 	<div class="row">
-		<div class="col-sm-6 col-md-9" >
+		<div class="col-sm-6 col-md-offset-2 col-md-9" >
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>SERVICES</strong></div>
 			</div>
@@ -131,9 +144,9 @@
 
 <!-- Work Section -->
 <section>
-<div class="conainer" style="background-color: #000">
+<div class="conainer" >
 	<div class="row">
-		<div class="col-sm-6 col-md-9" >
+		<div class="col-sm-6 col-md-offset-2 col-md-9" >
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>WORK</strong></div>
 			</div>
@@ -182,9 +195,9 @@
 
 <!-- clients Section -->
 <section>
-<div class="conainer" style="background-color: #000">
+<div class="conainer" >
 	<div class="row">
-		<div class="col-sm-6 col-md-9" >
+		<div class="col-sm-6 col-md-offset-2 col-md-9" >
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>CLIENTS</strong></div>
 			</div>
@@ -229,11 +242,11 @@
 				  </div>
 				  <div class="row">
 							<hr style="color: #fff;">
-							<div class="col-sm-6 col-md-6"><center><img src="hdfc.png" ></center></div>
-							<div class="col-sm-6 col-md-6"><center><img src="axis.png"></center></div>
-							<div class="col-sm-6 col-md-6"><center><img src="kotak.png"></center></div>
-							<div class="col-sm-6 col-md-6"><center><img src="icici.jpg"></center></div>
-							<div class="col-sm-6 col-md-6"><center><img src="kt.jpg"></center></div>
+							<div class="col-sm-6 col-md-6"><center><img class="vendor" src="hdfc.png" ></center></div>
+							<div class="col-sm-6 col-md-6"><center><img class="vendor" src="axis.png"></center></div>
+							<div class="col-sm-6 col-md-6"><center><img class="vendor" src="kotak.png"></center></div>
+							<div class="col-sm-6 col-md-6"><center><img class="vendor" src="icici.jpg"></center></div>
+							<div class="col-sm-6 col-md-6"><center><img class="vendor" src="kt.jpg"></center></div>
 					</div>
 
 			</div>
@@ -249,9 +262,9 @@
 
 <!-- Partner Section -->
 <section >
-<div class="conainer" style="background-color: #000">
+<div class="conainer" >
 	<div class="row">
-		<div class="col-sm-6 col-md-9" >
+		<div class="col-sm-6 col-md-offset-2 col-md-9" >
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>PARTNERS</strong><br>
 				<h5>Great design needs to tell a great story and must use technology to create a magical experience for the user. Together with our partners, we aim to bring these three aspects together and create la delightful world.</h5>
@@ -263,7 +276,7 @@
 			
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>TECHNOLY PARTNERS :</strong><br>
-					<img src="ahy.png">
+					<img src="ahy.png" class="vendor">
 				<h5>A group of highly motivated people, with a grit to craft extremely functional and usable applications.</h5>
 				</div>
 				<div class="row">
@@ -275,7 +288,7 @@
 			<!-- Content partner -->
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>CONTENT PARTNERS :</strong><br>
-					<img src="DCS.png">
+					<img src="DCS.png" class="vendor">
 				<h5>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</h5>
 				</div>
 				<div class="row">
@@ -287,7 +300,7 @@
 			<!-- Content partner -->
 			<div class="row">
 				<div class="col-sm-12 col-md-12" ><strong>CONTENT PARTNERS :</strong><br>
-					<img src="DCS.png">
+					<img src="DCS.png" class="vendor">
 				<h5>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</h5>
 				</div>
 				<div class="row">
@@ -303,11 +316,11 @@
 
 <!-- CONTACT Section -->
 <section >
-<div class="conainer" style="background-color: #000">
+<div class="conainer" >
 	<div class="row">
-		<div class="col-sm-6 col-md-9" >
+		<div class="col-sm-6 col-md-offset-2 col-md-9" >
 			<div class="row">
-				<div class="col-sm-12 col-md-12" ><strong>CONTACT</strong></div>
+				<div class="col-sm-12 col-md-offset-2  col-md-12" ><strong>CONTACT</strong></div>
 			</div>
 			<div class="row">
 				<h4><strong>Location:</strong> <br>Chowdhary Design Company C1111, Vaibhav Paradise, Araam Society Road, Vakola, Santacru East Mumbai, Maharashtra, IN 400 055</h4><br>
